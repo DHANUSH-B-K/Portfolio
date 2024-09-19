@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <nav>
+        <a href="#" class="logo"><span>Dhanush</span></a>
+   
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </ul>
+   
+        <i class='bx bx-menu-alt-right' id ="menu"></i>
+
+        <a href="#contact" class="btn">Contact me</a>
+    </nav>
+
+    <section id="home">
+        <img src="image.jpg" alt="">
+
+        <div class="info-box">
+            <h1><span>Hello, I'm DHANUSH B K</span></h1>
+            <h3><span>FULLSTACK DEVELOPER</span></h3>
+            <p>Driven by my passion for technology, I have specialized in front-end development, where I have honed my skills in creating user-friendly interfaces. Additionally, I have acquired intermediate knowledge in back-end development, allowing me to understand and contribute to full-stack projects effectively.
+            </p>
+        </div>
+
+        <div class="btn-box">
+            <div class="btn"><a href="DBK_Resume.pdf" target="_blank" style="color:rgb(82, 147, 131)"> Download Resume</a></div>
+            <!-- <div class="btn">Contact Me</div>-->
+        </div>
+    </section>
+
+    <section id="about">
+
+        <div class="about-box">
+
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p>I am currently pursuing a Bachelor of Technology in Artificial Intelligence & Machine Learning Engineering at RNS Institute of Technology, where I am actively engaging in coursework that enhances my technical skills and prepares me for a successful career in the field of technology.</p>
+
+            </div>
+
+            <h2><span>Skills</span></h2>
+
+            <div class="skills">
+                <ul>
+                    <li>
+                        <span> <i class='bx bx-chevron-right' ></i> HTML</span>
+                    </li>
+
+                    <li>
+                        <span><i class='bx bx-chevron-right' ></i>CSS</span>
+                    </li>
+
+                    <li>
+                        <span><i class='bx bx-chevron-right' ></i>JavaScript</span>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <span><i class='bx bx-chevron-right' ></i>React</span>
+                    </li>
+
+                    <li>
+                        <span> <i class='bx bx-chevron-right' ></i>Node</span>
+                    </li>
+
+                    <li>
+                        <span><i class='bx bx-chevron-right' ></i> MySQL</span>
+                    </li>
+                </ul>
+
+
+                <ul>
+                    <li>
+                        <span><i class='bx bx-chevron-right' ></i>Python</span>
+                    </li>
+
+                    <li>
+                        <span> <i class='bx bx-chevron-right' ></i>C</span>
+                    </li>
+
+                    <li>
+                        <span><i class='bx bx-chevron-right' ></i>C++</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+         <img src="image.jpg" alt=""> 
+    </section>
+
+    <section id="services">
+        <h1 class="header"><span>Services</span></h1>
+        <div class="services-container">
+
+            <div class="box">
+                <h1><span>Web Design</span></h1>
+                <p>
+                    Providing responsive web design services focused on user experience and brand identity. I create visually appealing and intuitive websites that engage users across all devices, using a streamlined process of research, wireframing, and prototyping to ensure client satisfaction.
+                </p>
+                <img src="web-design.jpg" alt="">
+            </div>
+
+                
+            <div class="box">
+                <h1><span>Web Development</span></h1>
+                <p>
+                    Offering comprehensive web development solutions that combine front-end and back-end technologies. I create robust, scalable websites tailored to specific business needs, ensuring optimal performance and security through modern frameworks and thorough testing.
+                </p>
+                <img src="web-dev.jpg" alt="">
+            </div>
+
+                
+            <div class="box">
+                <h1><span>Graphic Design</span></h1>
+                <p>
+                    Offering a range of graphic design services that elevate brand identity and visual communication. I create striking designs for logos, marketing materials, and digital content, ensuring professionalism while effectively conveying your message to engage your audience.
+                </p>
+                <img src="graphic.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <h1 class="header"><span>Contact</span></h1>
+
+        <form method="post" action="" name="contact-form">
+            <div class="input-box">
+                <span>Full Name</span>
+                <input type="text" name="Full Name" placeholder="Enter your Full Name">
+            </div>
+
+            <div class="input-box">
+                <span>Your Email</span>
+                <input type="email" name="Your Email" placeholder="Enter Your Email">
+            </div>
+
+            <div class="input-box">
+                <span>Your Message</span>
+                <input type="text" name="Message" placeholder="Enter your Message">
+            </div>
+
+            <div ><input id="fashion-button" type="submit" value="Submit"</div>
+        </form>
+
+
+        <div class="overlay" id="overlay"></div>
+        <div class="thank-you-card" id="thank-you-card">
+            Thank you! Your form has been submitted successfully.
+            <button id="close-button">Close</button>
+        </div>
+    
+    </section>
+    
+    <footer>
+
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bxs-location-plus'></i></span>
+                <span>Bengaluru, Karnataka, INDIA</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-phone' ></i></span>
+                <span>+91 9353437587</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-envelope' ></i></span>
+                <span>dhanushachari753@gmail.com</span>
+            </div>
+
+        </div>
+
+
+        <div class="col-right">
+            <span>About My services</span>
+            <p>I offer custom web development and graphic design solutions that boost user engagement and brand visibility. My focus is on delivering responsive designs that meet your specific needs.</p>
+
+            <div class="social-icons">
+
+
+                <a href="https://www.instagram.com/dhanush_b_k?igsh=eG1sb3BvNHpkNHAw" target="_blank" rel="noopener noreferrer">
+                    <span><i class='bx bxl-instagram-alt'></i></span>
+                </a>
+                <a href="https://www.linkedin.com/in/dhanush-bk-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                    <span><i class='bx bxl-linkedin-square'></i></span>
+                </a>
+                <a href="https://github.com/DHANUSH-B-K" target="_blank" rel="noopener noreferrer">
+                    <span><i class='bx bxl-github'></i></span>
+                </a>
+                <a href="https://x.com/dhanush_b_k?t=Pl512xNIuNw_as0ulxJGRw&s=09" target="_blank" rel="noopener noreferrer">
+                    <span><i class='bx bxl-twitter'></i></span>
+                </a>
+           
+
+            </div></div>
+
+    </footer>
+
+
+
+     <script src="script.js"></script>
+</body>
+</html>
